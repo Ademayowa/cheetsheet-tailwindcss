@@ -1,6 +1,7 @@
 import ButtonInsideForm from '@/components/ButtonInsideForm';
 import Layout from '@/components/Layout';
 import ThreeLayerdivision from '@/components/ThreeLayerdivision';
+import LoginFormInACard from '@/components/LoginFormInACard';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <h1 className='text-5xl'>My Tailwind cheetsheet in Next.js</h1>
         {/* <ButtonInsideForm /> */}
         <ThreeLayerdivision />
+        <LoginFormInACard />
       </div>
     </Layout>
   );
