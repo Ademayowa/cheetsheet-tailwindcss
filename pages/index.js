@@ -1,15 +1,14 @@
 import Layout from '@/components/Layout';
-import SearchIconInForm from '@/components/SearchIconInForm';
-import SelectDropdown from '@/components/SelectDropdown';
-import LoginFormInACard from '@/components/LoginFormInACard';
+import TwoLayerLogin from '@/components/TwoLayerLogin';
 
 export default function Home() {
   return (
-    <Layout title='Gradient on images'>
+    <Layout>
       <div className='text-center mt-10'>
         <h1 className='text-5xl'>My Tailwind cheetsheet in Next.js</h1>
-        <SelectDropdown />
       </div>
+
+      <TwoLayerLogin />
     </Layout>
   );
 }
