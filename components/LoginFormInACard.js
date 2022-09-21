@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Layout from '@/components/Layout';
-import { BsChevronDown } from 'react-icons/bs';
+import { MdKeyboardArrowDown } from 'react-icons/md';
 
 export default function Register() {
   return (
@@ -37,7 +37,7 @@ export default function Register() {
           {/* Select dropdown */}
           <div className='mt-4 md:mt-6'>
             <div className='relative'>
-              <BsChevronDown className='absolute top-3 md:top-3 right-2 w-5 h-5 text-[#817C8E]' />
+              <MdKeyboardArrowDown className='absolute top-3 md:top-3 right-2 w-5 h-5 text-[#817C8E]' />
             </div>
             <select
               className='form-select form-select-lg mb-3 appearance-none block w-full h-12 px-6 pl-3 py-2 text-base font-normal text-gray-600 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-stone-500 focus:outline-none'
